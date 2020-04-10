@@ -8,13 +8,13 @@ phases:
         - echo install
   pre_build:
     commands:
-        - echo pre
+       - echo pre
    build:
     commands:
-        - mvn package
+       - mvn package
    post_build:
      commands:
-        - echo post
+       - echo post
 artifacts:
   files:
     - target\aws-code-pipeline-0.0.1-SNAPSHOT.jar
