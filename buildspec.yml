@@ -17,4 +17,4 @@ phases:
        - echo post
 artifacts:
   files:
-    - target\aws-code-pipeline-0.0.1-SNAPSHOT.jar
+    - target/aws-code-pipeline-0.0.1-SNAPSHOT.jar
