@@ -9,10 +9,10 @@ phases:
   pre_build:
     commands:
       - echo pre
-   build:
+  build:
     commands:
        - mvn package
-   post_build:
+  post_build:
      commands:
        - echo post
 artifacts:
